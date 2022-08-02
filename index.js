@@ -17,7 +17,7 @@ const removeErrorElem = () => {
 }
 
 const makeObject = (event) => {
-    let obj = {}
+    let obj = {};
     for (let i = 0; i < event.length; i++) {
         obj[event[i].id] = event[i].value;
     }
@@ -45,8 +45,7 @@ form.addEventListener("submit", () => {
             }
         }
     }
-    if (a === 2)
-    {
+    if (a === 2) {
         makeObject(elements);
     }
 })
