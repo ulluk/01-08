@@ -1,0 +1,39 @@
+    <!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Форма</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <form id="form" action="javascript:void(0)">
+        <div class="form-control">
+            <input type="text" id="userName" data-required placeholder="Введите имя">
+        </div>
+        <div class="form-control">
+            <input type="tel" id="userPhone" data-required placeholder="Введите тел номер">
+        </div>
+        <div class="form-control">
+            <textarea id="userMsg" placeholder="Введите сообщение"></textarea>
+        </div>
+        <div class="form-control">
+            <select id="userBank">
+                <option value="">Выберите банк</option>
+                <option value="Bakai Bank">Bakai Bank</option>
+                <option value="Optima Bank">Optima Bank</option>
+                <option value="Demir Bank">Demir Bank</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <button type="submit">Отправить</button>
+        </div>
+    </form>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
